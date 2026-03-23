@@ -1,5 +1,9 @@
 # Daly BMS Bluetooth Monitor
 
+![Tested Daly 100A BMS](daly-bms.png)
+
+Tested Daly 100A BMS used for the Raspberry Pi 4 deployment described in this repository.
+
 Node.js service that connects to a Daly BMS over Bluetooth and exposes battery metrics as JSON through a small REST API. This project was tested and deployed on a Raspberry Pi 4, making it a practical base for continuous local monitoring and Home Assistant integrations.
 
 ## What This Project Is For
