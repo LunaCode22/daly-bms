@@ -4,6 +4,14 @@
 
 Daly BMS de 100A usado en las pruebas y en el despliegue sobre Raspberry Pi 4 descrito en este repositorio.
 
+Si este proyecto te ayuda a monitorear tu Daly BMS, considera apoyar su mantenimiento y futuras mejoras.
+
+<p align="center">
+  <a href="https://lunacode22.github.io/luna-labs/">
+    <img src="https://img.shields.io/badge/Donar-PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="Boton de donacion estilo PayPal">
+  </a>
+</p>
+
 Servicio en Node.js que se conecta por Bluetooth a un BMS Daly y expone las métricas de la batería en formato JSON mediante una API REST pequeña. Este proyecto fue probado y desplegado en una Raspberry Pi 4, por lo que sirve como base práctica para mantener un monitoreo local continuo e integrarlo con Home Assistant.
 
 ## Para Qué Sirve Este Proyecto
