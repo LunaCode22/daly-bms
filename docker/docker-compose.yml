@@ -1,0 +1,13 @@
+services:
+  daly_bms_nodejs:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: daly_bms_nodejs
+    volumes:
+      - ../:/app
+      - /run/dbus:/run/dbus  # Allows Bluetooth access
+      - /app/node_modules  # Prevents the bind mount from overwriting node_modules
+    network_mode: "host"  # Required for reliable Bluetooth access
+    command: ["npm", "run", "dev"]  # Uses nodemon in development mode
+    restart: always
